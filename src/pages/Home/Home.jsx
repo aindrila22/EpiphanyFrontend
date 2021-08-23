@@ -9,7 +9,7 @@ import Button from "../../components/shared/Button/Button";
 const Home = () => {
   const history = useHistory();
   const startRegister = () => {
-    history.push("/register");
+    history.push("/authenticate");
   };
   const signInLink = {
     color: "#0077ff",
@@ -26,13 +26,10 @@ const Home = () => {
           since the 1500s.
         </p>
         <div>
-          <Button onClick={startRegister} label="Get your username" />
+          <Button onClick={startRegister} label="Let's Go" />
         </div>
         <div className={styles.signinWrapper}>
           <span className={styles.hasInvite}>Have an invite text</span>
-          <Link style={signInLink} to="/login">
-            Sign-In
-          </Link>
         </div>
       </Card>
     </div>
