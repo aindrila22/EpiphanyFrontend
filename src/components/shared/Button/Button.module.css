@@ -1,5 +1,5 @@
-.button{
-    background: #0077ff;
+.button {
+    background: #08b2dd;
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
@@ -12,8 +12,7 @@
     font-size: 18px;
     font-weight: bold;
     transition: all .3s ease-in-out;
-
 }
-.button:hover{
+.button:hover {
     background: #014a9c;
 }
